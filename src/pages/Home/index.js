@@ -82,7 +82,7 @@ export default function Home() {
         <h1 className="rsn mb5">Maiores atrações</h1>
         <Gallery2 config={melhoresAtracoes} />
 
-        <TopRating config={melhoresDestinos} />
+        {/* <TopRating config={melhoresDestinos} /> */}
       </Main>
     </HomeContainer>
   );
